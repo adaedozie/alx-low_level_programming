@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 
-/* main - positive anything is better than negative nothing
+/* main - entry point
  * Description: program will assign a random number to the variable n each time it is executed
  * Return(0)
  */
@@ -26,7 +26,7 @@ int main(void)
 	  printf("%d is zero\n", n);
 	else if (n < 0)
 	  printf("%d is negative\n", n);
-	else (n > 0);
+	else 
 	       printf("%d is positive\n", n);
 
 	return (0);
