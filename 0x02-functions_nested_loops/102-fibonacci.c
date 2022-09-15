@@ -7,9 +7,9 @@
 int main(void)
 {
 	int count;
-	unsigned long a = 0, b = 1, c
+	unsigned long a = 0, b = 1, c;
 
-		for (c = 0; c < 50; c++)
+		for (count = 0; count < 50; count++)
 		{
 			c = a + b;
 			printf("%lu", c);
@@ -17,8 +17,8 @@ int main(void)
 			a = b;
 			b = c;
 
-			if (c == 49)
-				printf("\n);
+			if (count == 49)
+				printf("\n");
 			else
 				printf(", ");
 		}
