@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - list numbers below 10that are multiles of 3 0r 5
@@ -13,7 +13,7 @@ int main(void)
 	for (n = 0; n < 1024; n++)
 	{
 		if ((n % 3) == 0 || (n % 5) == 0)
-			sum +=i;
+			sum += i;
 	}
 	printf("%d\n", sum);
 	return (0);
