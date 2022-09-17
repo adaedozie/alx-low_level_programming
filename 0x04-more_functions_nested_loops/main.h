@@ -2,7 +2,9 @@
 #define MAIN.H
 
 /**
- * main - header file containing prototypes 
+ * main - header file containing prototypes
+ * void prototypes (void)
+ * int prototypes (void)
  */
 
 void print_numbers(void);
@@ -19,4 +21,3 @@ int _isdigit(int);
 int mul(int, int);
 
 #endif /*MAIN_H*/
-
