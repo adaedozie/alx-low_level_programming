@@ -4,7 +4,7 @@
 /**
  * main - header file for prototypes
  * void prototypes (void)
- * int prototypes (void)
+ * int prototypes (int)
  */
 
 void print_numbers(void);
