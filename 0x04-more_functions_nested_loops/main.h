@@ -2,7 +2,7 @@
 #define MAIN.H
 
 /**
- * main - header file containing prototypes
+ * main - header file for prototypes
  * void prototypes (void)
  * int prototypes (void)
  */
